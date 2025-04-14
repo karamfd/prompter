@@ -1,0 +1,82 @@
+body {
+  background-color: #1b1b1b;
+  color: #b0b0b0;
+  font-family: Proxima Nova, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-inline-size: 1200px;
+  margin-block: 60px;
+  margin-inline: auto;
+  text-align: center;
+}
+
+#prompter {
+  accent-color: currentColor;
+  background-color: #0b0b0b;
+  block-size: 666px;
+  border-color: transparent;
+  box-sizing: border-box;
+  color: currentColor;
+  font-family: inherit;
+  font-size: 4rem;
+  inline-size: 100%;
+  line-height: 1.25;
+  margin-block-end: 20px;
+  overflow: auto;
+  resize: none;
+  padding: 40px;
+}
+
+#prompter::placeholder {
+  color: #666;
+  opacity: 1;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  background-color: #2b9437;
+  border-color: transparent;
+  color: #f5f5f5;
+  font-size: 1.125em;
+  font-family: inherit;
+  margin-inline-end: 8px;
+  padding: 8px 16px;
+}
+
+button:hover {
+  background-color: #4caf50;
+}
+
+button:focus-visible {
+  background-color: #942b88;
+  outline: 2px solid #6f0066;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  color: #222;
+  cursor: not-allowed;
+}
+
+.speed-control {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+label,
+#speed-value {
+  font-size: 1.25em;
+}
+
+input[type="range"] {
+  accent-color: #ccc;
+  inline-size: 200px;
+}
