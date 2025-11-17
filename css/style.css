@@ -28,6 +28,7 @@ main {
   overflow: auto;
   resize: none;
   padding: 40px;
+  scroll-behavior: auto;
 }
 
 #prompter::placeholder {
